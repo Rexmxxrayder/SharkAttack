@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class HealthModule : MonoBehaviour, IHealth {
     [SerializeField] int maxHealth = 10;
-
-    int currentHealth;
+    [SerializeField] int currentHealth;
 
     public System.Action<HealthModule, int> OnHit;
     public System.Action<HealthModule> OnDeath;
