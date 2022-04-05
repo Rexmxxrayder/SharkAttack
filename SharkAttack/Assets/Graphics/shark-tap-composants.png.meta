@@ -1,0 +1,1836 @@
+fileFormatVersion: 2
+guid: 0f2d23b9d2c2e1b45b0a82d242875d0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2161425765590203626
+    second: shark-tap-composants_0
+  - first:
+      213: -5394812008171851302
+    second: shark-tap-composants_1
+  - first:
+      213: -8682615110640569275
+    second: shark-tap-composants_2
+  - first:
+      213: -9195679849521271707
+    second: shark-tap-composants_3
+  - first:
+      213: 6638290255958527475
+    second: shark-tap-composants_4
+  - first:
+      213: 539370387984472842
+    second: shark-tap-composants_5
+  - first:
+      213: 4999257610260372738
+    second: shark-tap-composants_6
+  - first:
+      213: -8027888588165113790
+    second: shark-tap-composants_7
+  - first:
+      213: -8649626792208398551
+    second: shark-tap-composants_8
+  - first:
+      213: -215018265790899355
+    second: shark-tap-composants_9
+  - first:
+      213: 2540775028375760301
+    second: shark-tap-composants_10
+  - first:
+      213: -7634284026551499808
+    second: shark-tap-composants_11
+  - first:
+      213: 5033310698604662584
+    second: shark-tap-composants_12
+  - first:
+      213: -7550192746798609831
+    second: shark-tap-composants_13
+  - first:
+      213: -4366901217538476293
+    second: shark-tap-composants_14
+  - first:
+      213: -5288588205989788819
+    second: shark-tap-composants_15
+  - first:
+      213: -7960685553602381660
+    second: shark-tap-composants_16
+  - first:
+      213: 8752933621605089994
+    second: shark-tap-composants_17
+  - first:
+      213: -6767358662279498700
+    second: shark-tap-composants_18
+  - first:
+      213: 1020998427103680906
+    second: shark-tap-composants_19
+  - first:
+      213: -4244199471102437671
+    second: shark-tap-composants_20
+  - first:
+      213: 6718134435428502652
+    second: shark-tap-composants_21
+  - first:
+      213: 5837075483594977074
+    second: shark-tap-composants_22
+  - first:
+      213: 3169901087984969234
+    second: shark-tap-composants_23
+  - first:
+      213: -1320878678673338290
+    second: shark-tap-composants_24
+  - first:
+      213: 9130050704752182917
+    second: shark-tap-composants_25
+  - first:
+      213: -3825359332944906842
+    second: shark-tap-composants_26
+  - first:
+      213: 2243046814612505342
+    second: shark-tap-composants_27
+  - first:
+      213: 4264006973315215651
+    second: shark-tap-composants_28
+  - first:
+      213: 1398341365152384618
+    second: shark-tap-composants_29
+  - first:
+      213: -9069158775715421378
+    second: shark-tap-composants_30
+  - first:
+      213: -3713301748270256559
+    second: shark-tap-composants_31
+  - first:
+      213: -4040591216452631846
+    second: shark-tap-composants_32
+  - first:
+      213: -6908566794474840519
+    second: shark-tap-composants_33
+  - first:
+      213: -4104345414925600175
+    second: shark-tap-composants_34
+  - first:
+      213: -8135258107082369076
+    second: shark-tap-composants_35
+  - first:
+      213: -5855495724114866646
+    second: shark-tap-composants_36
+  - first:
+      213: 677881381379507836
+    second: shark-tap-composants_37
+  - first:
+      213: -2405301484126084983
+    second: shark-tap-composants_38
+  - first:
+      213: 7620726803975196771
+    second: shark-tap-composants_39
+  - first:
+      213: 2989902804136052756
+    second: shark-tap-composants_40
+  - first:
+      213: -1995002159492033368
+    second: shark-tap-composants_41
+  - first:
+      213: -2174634059731703699
+    second: shark-tap-composants_42
+  - first:
+      213: 2216522642035595696
+    second: shark-tap-composants_43
+  - first:
+      213: -3350835105594394976
+    second: shark-tap-composants_44
+  - first:
+      213: 6452320005131777122
+    second: shark-tap-composants_45
+  - first:
+      213: 2298384620100426391
+    second: shark-tap-composants_46
+  - first:
+      213: 5244914314522403732
+    second: shark-tap-composants_47
+  - first:
+      213: 7269276282147904995
+    second: shark-tap-composants_48
+  - first:
+      213: 2651169608366904489
+    second: shark-tap-composants_49
+  - first:
+      213: -5648515480830087938
+    second: shark-tap-composants_50
+  - first:
+      213: -4910755175161685098
+    second: shark-tap-composants_51
+  - first:
+      213: 3310332703026462281
+    second: shark-tap-composants_52
+  - first:
+      213: 6104876009803563152
+    second: shark-tap-composants_53
+  - first:
+      213: 1779026218190074774
+    second: shark-tap-composants_54
+  - first:
+      213: -1493451390494479
+    second: shark-tap-composants_55
+  - first:
+      213: 3605795137023785358
+    second: shark-tap-composants_56
+  - first:
+      213: 5403170261667648181
+    second: shark-tap-composants_57
+  - first:
+      213: -5353478548338383075
+    second: shark-tap-composants_58
+  - first:
+      213: -5486513991911246065
+    second: shark-tap-composants_59
+  - first:
+      213: -4412504720285110435
+    second: shark-tap-composants_60
+  - first:
+      213: -6819860797676810109
+    second: shark-tap-composants_61
+  - first:
+      213: 6771587961724850061
+    second: shark-tap-composants_62
+  - first:
+      213: -6621342752728548693
+    second: shark-tap-composants_63
+  - first:
+      213: -1558045260469932868
+    second: shark-tap-composants_64
+  - first:
+      213: 1410701709573146812
+    second: shark-tap-composants_65
+  - first:
+      213: -994372733134310126
+    second: shark-tap-composants_66
+  - first:
+      213: -5384237821476490465
+    second: shark-tap-composants_67
+  - first:
+      213: 2081727583129203827
+    second: shark-tap-composants_68
+  - first:
+      213: 3552044320350166825
+    second: shark-tap-composants_69
+  - first:
+      213: 1331737838142688396
+    second: shark-tap-composants_70
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shark-tap-composants_0
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 14187
+        width: 1753
+        height: 891
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec7166384deefd10800000000000000
+      internalID: 2161425765590203626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_1
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 13258
+        width: 105
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1b7eebf07c125b0800000000000000
+      internalID: -5394812008171851302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_2
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 13256
+        width: 112
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54474d03f87218780800000000000000
+      internalID: -8682615110640569275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_3
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 13258
+        width: 202
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c211dc5e1626080800000000000000
+      internalID: -9195679849521271707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_4
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 13256
+        width: 116
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd485e01d1ff1c50800000000000000
+      internalID: 6638290255958527475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_5
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 13258
+        width: 108
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bdd2a928a3c7700800000000000000
+      internalID: 539370387984472842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_6
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 13258
+        width: 104
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ddc303f4ee06540800000000000000
+      internalID: 4999257610260372738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_7
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 12630
+        width: 796
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2489106dcd5379090800000000000000
+      internalID: -8027888588165113790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_8
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 12630
+        width: 794
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92787ba924a56f780800000000000000
+      internalID: -8649626792208398551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_9
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 12630
+        width: 796
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b1057c60a140df0800000000000000
+      internalID: -215018265790899355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_10
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 12073
+        width: 796
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad258c3d65a24320800000000000000
+      internalID: 2540775028375760301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_11
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 12073
+        width: 794
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e385f240239d0690800000000000000
+      internalID: -7634284026551499808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_12
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 12030
+        width: 796
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f018aa969e9d540800000000000000
+      internalID: 5033310698604662584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_13
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 11519
+        width: 796
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a865d03b3583790800000000000000
+      internalID: -7550192746798609831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_14
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 11530
+        width: 227
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6f56fba76a563c0800000000000000
+      internalID: -4366901217538476293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_15
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 11542
+        width: 227
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6388aafb092b96b0800000000000000
+      internalID: -5288588205989788819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_16
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 11542
+        width: 796
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a832f0aaa6f58190800000000000000
+      internalID: -7960685553602381660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_17
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 11075
+        width: 459
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2485af0caa87970800000000000000
+      internalID: 8752933621605089994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_18
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 10022
+        width: 107
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434fa23d6238512a0800000000000000
+      internalID: -6767358662279498700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_19
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 10022
+        width: 210
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a895fb3f8a05b2e00800000000000000
+      internalID: 1020998427103680906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_20
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 10022
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6d90951139915c0800000000000000
+      internalID: -4244199471102437671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_21
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 10022
+        width: 92
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c0901ccab9b3d50800000000000000
+      internalID: 6718134435428502652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_22
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 10020
+        width: 109
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fe1d6e935710150800000000000000
+      internalID: 5837075483594977074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_23
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 9411
+        width: 227
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216e772ae30cdfb20800000000000000
+      internalID: 3169901087984969234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_24
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 9495
+        width: 276
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40d94e07db4bade0800000000000000
+      internalID: -1320878678673338290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_25
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 9497
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5860f0e2eb474be70800000000000000
+      internalID: 9130050704752182917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_26
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 9214
+        width: 459
+        height: 485
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5f79d44f799eac0800000000000000
+      internalID: -3825359332944906842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_27
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 9462
+        width: 720
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2cc879137e02f10800000000000000
+      internalID: 2243046814612505342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_28
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 9218
+        width: 719
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321fd3420cbcc2b30800000000000000
+      internalID: 4264006973315215651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_29
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 8867
+        width: 429
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6684a81018e76310800000000000000
+      internalID: 1398341365152384618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_30
+      rect:
+        serializedVersion: 2
+        x: 4106
+        y: 8867
+        width: 429
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33add9d420e32280800000000000000
+      internalID: -9069158775715421378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_31
+      rect:
+        serializedVersion: 2
+        x: 4639
+        y: 8867
+        width: 430
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ea38edbb3b77cc0800000000000000
+      internalID: -3713301748270256559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_32
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 8867
+        width: 429
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad207c452bfece7c0800000000000000
+      internalID: -4040591216452631846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_33
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 8695
+        width: 227
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e94448a17df10a0800000000000000
+      internalID: -6908566794474840519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_34
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 8779
+        width: 276
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a3bd3479f6a07c0800000000000000
+      internalID: -4104345414925600175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_35
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 8781
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc71d33aad1c91f80800000000000000
+      internalID: -8135258107082369076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_36
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 8499
+        width: 459
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e8054a9a91dbea0800000000000000
+      internalID: -5855495724114866646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_37
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 8503
+        width: 719
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c760af85681586900800000000000000
+      internalID: 677881381379507836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_38
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 8263
+        width: 306
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980e1f44b07ae9ed0800000000000000
+      internalID: -2405301484126084983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_39
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 8263
+        width: 303
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3605d31e6a242c960800000000000000
+      internalID: 7620726803975196771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_40
+      rect:
+        serializedVersion: 2
+        x: 4563
+        y: 8263
+        width: 306
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418497952c44e7920800000000000000
+      internalID: 2989902804136052756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_41
+      rect:
+        serializedVersion: 2
+        x: 5094
+        y: 8263
+        width: 306
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4175d1b145054e0800000000000000
+      internalID: -1995002159492033368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_42
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 7979
+        width: 227
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68e93928d522d1e0800000000000000
+      internalID: -2174634059731703699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_43
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 8063
+        width: 276
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9542b699ba2ce10800000000000000
+      internalID: 2216522642035595696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_44
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 8065
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6332699317f71d0800000000000000
+      internalID: -3350835105594394976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_45
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 7783
+        width: 459
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264b60bdbde3b8950800000000000000
+      internalID: 6452320005131777122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_46
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 7787
+        width: 719
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a9e4672a085ef10800000000000000
+      internalID: 2298384620100426391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_47
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 6189
+        width: 87
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4932872c7cda9c840800000000000000
+      internalID: 5244914314522403732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_48
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 6189
+        width: 49
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed199ba348a1e460800000000000000
+      internalID: 7269276282147904995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_49
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 6189
+        width: 108
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4550a56b8dac420800000000000000
+      internalID: 2651169608366904489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_50
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 6191
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efce3d8e8117c91b0800000000000000
+      internalID: -5648515480830087938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_51
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 6189
+        width: 90
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b939dbf2e79dbb0800000000000000
+      internalID: -4910755175161685098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_52
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 6191
+        width: 106
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e3044fd0aa0fd20800000000000000
+      internalID: 3310332703026462281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_53
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 6189
+        width: 116
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090452ac260e8b450800000000000000
+      internalID: 6104876009803563152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_54
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 6189
+        width: 109
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69373557bee50b810800000000000000
+      internalID: 1779026218190074774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_55
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 6189
+        width: 100
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f85160c6b1bafff0800000000000000
+      internalID: -1493451390494479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_56
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 6189
+        width: 49
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e893223a29b5a0230800000000000000
+      internalID: 3605795137023785358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_57
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 6189
+        width: 92
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b297abc9baebfa40800000000000000
+      internalID: 5403170261667648181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_58
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 5183
+        width: 241
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17ed9dcf9f94b5b0800000000000000
+      internalID: -5353478548338383075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_59
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 5181
+        width: 241
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f077be8d79cfbd3b0800000000000000
+      internalID: -5486513991911246065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_60
+      rect:
+        serializedVersion: 2
+        x: 2363
+        y: 4942
+        width: 1545
+        height: 688
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5feba9d552a3c2c0800000000000000
+      internalID: -4412504720285110435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_61
+      rect:
+        serializedVersion: 2
+        x: 4202
+        y: 4575
+        width: 1212
+        height: 1459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3809cd8dcbcfa51a0800000000000000
+      internalID: -6819860797676810109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_62
+      rect:
+        serializedVersion: 2
+        x: 6175
+        y: 5238
+        width: 498
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fcbefaf5389fd50800000000000000
+      internalID: 6771587961724850061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_63
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 2579
+        width: 1212
+        height: 1459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baaf18709d34c14a0800000000000000
+      internalID: -6621342752728548693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_64
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 2579
+        width: 1212
+        height: 1459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc65b92716b06ae0800000000000000
+      internalID: -1558045260469932868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_65
+      rect:
+        serializedVersion: 2
+        x: 4022
+        y: 2579
+        width: 2967
+        height: 1459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8c42b0bb1d39310800000000000000
+      internalID: 1410701709573146812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_66
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1184
+        width: 479
+        height: 822
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215f13384474332f0800000000000000
+      internalID: -994372733134310126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_67
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 1184
+        width: 481
+        height: 822
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13bba07a385745b0800000000000000
+      internalID: -5384237821476490465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_68
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 1184
+        width: 481
+        height: 822
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3747c871538c3ec10800000000000000
+      internalID: 2081727583129203827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_69
+      rect:
+        serializedVersion: 2
+        x: 3853
+        y: 1184
+        width: 481
+        height: 822
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f5ae46d756b4130800000000000000
+      internalID: 3552044320350166825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark-tap-composants_70
+      rect:
+        serializedVersion: 2
+        x: 5530
+        y: 6019
+        width: 94
+        height: 869
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c017802884b7210800000000000000
+      internalID: 1331737838142688396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6cfe3b02154a3524c841ca74194dc4c4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
