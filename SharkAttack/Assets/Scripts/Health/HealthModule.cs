@@ -29,4 +29,8 @@ public class HealthModule : MonoBehaviour, IHealth {
     public void Death() {
         OnDeath?.Invoke(this);
     }
+
+    public int GetCurrentHealth(int amount) {
+        return currentHealth;
+    }
 }
