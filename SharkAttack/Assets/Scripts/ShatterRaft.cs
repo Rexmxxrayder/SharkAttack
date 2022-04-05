@@ -8,7 +8,7 @@ public class ShatterRaft : MonoBehaviour {
         GetComponent<HealthModule>().OnDeath += Die;
     }
 
-    public void Die(HealthModule healthModule) {
+    public void Die(IHealth healthModule) {
         transform.parent.GetComponent<ParentShatterRaft>().RemoveChild(this);
         Destroy(gameObject);
     }

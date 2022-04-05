@@ -1,13 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class HealthModule : MonoBehaviour, IHealth {
     [SerializeField] int maxHealth = 10;
     [SerializeField] int currentHealth;
 
-    public System.Action<HealthModule, int> OnHit;
-    public System.Action<HealthModule> OnDeath;
+    UnityEvent<IHealth, int> _onHit;
+    UnityEvent<IHealth> _onDeath;
+
+    public event UnityAction<IHealth, int> OnHit { add => _onHit.AddListener(value); remove => _onHit.RemoveListener(value); }
+    public event UnityAction<IHealth> OnDeath { add { _onDeath.AddListener(value); } remove => _onDeath.RemoveListener(value); }
+
 
     public int Health => currentHealth;
 
@@ -19,7 +24,7 @@ public class HealthModule : MonoBehaviour, IHealth {
         currentHealth -= amount;
         currentHealth = Mathf.Max(currentHealth, 0);
 
-        OnHit?.Invoke(this, amount);
+        _onHit?.Invoke(this, amount);
 
         if (currentHealth == 0) {
             Death();
@@ -27,7 +32,7 @@ public class HealthModule : MonoBehaviour, IHealth {
     }
 
     public void Death() {
-        OnDeath?.Invoke(this);
+        _onDeath?.Invoke(this);
     }
 
     public int GetCurrentHealth(int amount) {
