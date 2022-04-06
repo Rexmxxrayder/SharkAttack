@@ -10,7 +10,11 @@ public class EntitySpawner : MonoBehaviour {
     [SerializeField] float _radiusSpawn;
     [SerializeField] Transform _target;
 
+    int[] _sharkBySide = new int[4];
     Coroutine routine_SpawnLoop = null;
+
+    Vector3[] _directions = { Vector3.up, Vector3.right, Vector3.down, Vector3.left };
+    public int[] SharkBySide => _sharkBySide;
 
     void Start() {
         SpawnLoop(_time);
@@ -33,22 +37,33 @@ public class EntitySpawner : MonoBehaviour {
     }
 
     public void Spawn(GameObject toSpawn) {
-        Vector3 position = RandomPositionOnRadius(_radiusSpawn);
-        GameObject last = Instantiate(toSpawn, position, Quaternion.identity);
+        (Vector3, int) position = RandomPositionOnRadius(_radiusSpawn);
+        GameObject last = Instantiate(toSpawn, position.Item1, Quaternion.identity);
         Vector3 direction = _target != null ?
-            _target.position - position :
+            _target.position - position.Item1 :
             new Vector3(Random.Range(-1f, 1f), 0f, Random.Range(-1f, 1f));
         direction.Normalize();
-        last.GetComponent<BasicBrain>()?.SetDirection(direction);
+        BasicBrain brain = last.GetComponent<BasicBrain>();
+        if (brain != null) {
+            brain.SetDirection(direction);
+            brain.SetSide(position.Item2);
+            ++_sharkBySide[position.Item2];
+            brain.OnDeath += DeadShark;
+        }
     }
 
-    Vector3 RandomPositionOnRadius(float radius) {
+    (Vector3, int) RandomPositionOnRadius(float radius) {
         //Vector2 random = Random.insideUnitCircle.normalized;
-
-        Vector3 randomDirection = Tools.RandomValue(Vector3.up, Vector3.right, Vector3.down, Vector3.left);
+        int randomIndex = Random.Range(0, _directions.Length);
+        Vector3 randomDirection = _directions[randomIndex];
         float angle = Random.Range(_spawnAngle / 2f, -_spawnAngle / 2f);
         Vector3 targetDir = Quaternion.AngleAxis(angle, Vector3.forward) * randomDirection;
-        return targetDir.Override(targetDir.y, Axis.Z).Override(0, Axis.Y) * radius;
+        return (targetDir.Override(targetDir.y, Axis.Z).Override(0, Axis.Y) * radius, randomIndex);
+    }
+
+    void DeadShark(BasicBrain shark) {
+        if (shark.Side == -1) { return; }
+        --_sharkBySide[shark.Side];
     }
 
     void OnDrawGizmosSelected() {

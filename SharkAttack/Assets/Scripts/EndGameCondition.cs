@@ -17,7 +17,6 @@ public class EndGameCondition : MonoBehaviour {
     }
 
     void ComputeLose(int life) {
-        this.Hurl();
         if (life <= 0) {
             Lose();
         }
