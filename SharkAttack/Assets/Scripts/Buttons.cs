@@ -21,9 +21,6 @@ public class Buttons : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void ChangeDataLevel(LevelData isleData) {
-        mainLevelData = isleData;
-    }
     public void StopTime() {
         Time.timeScale = 0;
     }

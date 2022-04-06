@@ -4,10 +4,6 @@ using UnityEngine;
 using TMPro;
 
 public class Parchemin : MonoBehaviour {
-    [SerializeField] Isle isle;
-    [SerializeField] int scoreOneStar = 0;
-    [SerializeField] int scoreTwoStar = 0;
-    [SerializeField] int scoreThreeStar = 0;
     [SerializeField] TMP_Text score = null;
     [SerializeField] GameObject lights = null;
     [SerializeField] GameObject leftStar = null;
@@ -16,8 +12,7 @@ public class Parchemin : MonoBehaviour {
     [SerializeField] GameObject fail = null;
     [SerializeField] GameObject levelFinished = null;
 
-
-    public void LaunchAnim(int score) {
+    public void LaunchAnim(int score, LevelData data) {
         lights.SetActive(false);
         leftStar.SetActive(false);
         middleStar.SetActive(false);
@@ -25,18 +20,18 @@ public class Parchemin : MonoBehaviour {
         fail.SetActive(false);
         levelFinished.SetActive(false);
         this.score.text = score.ToString();
-        if(scoreOneStar > score) {
+        if(data.scoreOneStar > score) {
             fail.SetActive(true);
             return;
         }
         lights.SetActive(true);
         leftStar.SetActive(true);
         levelFinished.SetActive(true);
-        if (scoreTwoStar > score) {
+        if (data.scoreTwoStar > score) {
             return;
         }
         middleStar.SetActive(true);
-        if (scoreThreeStar > score) {
+        if (data.scoreThreeStar > score) {
             return;
         }
         rightStar.SetActive(true);

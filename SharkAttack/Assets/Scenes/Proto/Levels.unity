@@ -648,12 +648,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 103923166}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: ChangeDataLevel
+      - m_Target: {fileID: 493737291}
+        m_TargetAssemblyTypeName: Isle, Assembly-CSharp
+        m_MethodName: ExportData
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 952d31502a1dbcb4f84773e567c06086, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 36a7a78f904759c4381cd8fea6c575df, type: 2}
           m_ObjectArgumentAssemblyTypeName: LevelData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -697,12 +697,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d37ea43d2113146ae8f52391f42e38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelData: {fileID: 11400000, guid: 952d31502a1dbcb4f84773e567c06086, type: 2}
+  nextIsle: {fileID: 700232502}
   isleName: 
-  unlock: 0
   highScore: 255
-  scoreOneStar: 100
-  scoreTwoStar: 200
-  scoreThreeStar: 300
+  isUnlock: 0
 --- !u!1 &252920867
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,7 +1057,6 @@ GameObject:
   - component: {fileID: 493737289}
   - component: {fileID: 493737290}
   - component: {fileID: 493737291}
-  - component: {fileID: 493737292}
   m_Layer: 5
   m_Name: Isle One
   m_TagString: Untagged
@@ -1131,12 +1129,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 493737290}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: ChangeDataLevel
+      - m_Target: {fileID: 493737291}
+        m_TargetAssemblyTypeName: Isle, Assembly-CSharp
+        m_MethodName: ExportData
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 18403bbeac764fa4fb803ab099f4e3d8, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 36a7a78f904759c4381cd8fea6c575df, type: 2}
           m_ObjectArgumentAssemblyTypeName: LevelData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1180,30 +1178,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d37ea43d2113146ae8f52391f42e38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelData: {fileID: 11400000, guid: 18403bbeac764fa4fb803ab099f4e3d8, type: 2}
+  nextIsle: {fileID: 103923167}
   isleName: 
-  unlock: 0
   highScore: 0
-  scoreOneStar: 100
-  scoreTwoStar: 200
-  scoreThreeStar: 300
---- !u!114 &493737292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 493737287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5d37ea43d2113146ae8f52391f42e38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isleName: 
-  unlock: 0
-  highScore: 0
-  scoreOneStar: 100
-  scoreTwoStar: 200
-  scoreThreeStar: 300
+  isUnlock: 1
 --- !u!1 &558812177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1736,12 +1715,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 700232501}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: ChangeDataLevel
+      - m_Target: {fileID: 493737291}
+        m_TargetAssemblyTypeName: Isle, Assembly-CSharp
+        m_MethodName: ExportData
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 8b70021e055d7944b8b501f057bf92bf, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 36a7a78f904759c4381cd8fea6c575df, type: 2}
           m_ObjectArgumentAssemblyTypeName: LevelData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1785,12 +1764,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d37ea43d2113146ae8f52391f42e38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelData: {fileID: 11400000, guid: 8b70021e055d7944b8b501f057bf92bf, type: 2}
+  nextIsle: {fileID: 103923167}
   isleName: 
-  unlock: 0
   highScore: 52
-  scoreOneStar: 100
-  scoreTwoStar: 200
-  scoreThreeStar: 300
+  isUnlock: 0
 --- !u!1 &782760865
 GameObject:
   m_ObjectHideFlags: 0
@@ -2020,7 +1998,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &879874104
 RectTransform:
   m_ObjectHideFlags: 0
