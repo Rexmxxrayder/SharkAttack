@@ -8,6 +8,8 @@ public class BasicBrain : MonoBehaviour {
     [SerializeField] LinearMovement _movement;
     [SerializeField] HealthModule _health;
 
+    IHealth _attackingTarget = null;
+
     void Awake() {
         _attack.OnCollision += StopMoving;
         _attack.OnAttack += Attack;
@@ -18,10 +20,13 @@ public class BasicBrain : MonoBehaviour {
         _attack.OnCollision -= StopMoving;
         _attack.OnAttack -= Attack;
         _health.OnDeath -= Death;
+        if (_attackingTarget != null) { _attackingTarget.OnDeath -= OnDestroyRaft; }
     }
 
     void StopMoving(IHealth target) {
         _movement.Moving = false;
+        _attackingTarget = target;
+        target.OnDeath += OnDestroyRaft;
     }
 
     void Attack(IHealth target) {
@@ -34,5 +39,10 @@ public class BasicBrain : MonoBehaviour {
 
     public void SetDirection(Vector3 direction) {
         _movement.ChangeDirection(direction);
+    }
+
+    public void OnDestroyRaft(IHealth target) {
+        _movement.Moving = true;
+        _attackingTarget = null;
     }
 }

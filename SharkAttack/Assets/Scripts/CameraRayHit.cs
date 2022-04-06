@@ -28,7 +28,7 @@ public class CameraRayHit : MonoBehaviour {
     public void CameraRay(Vector2 position) {
         Ray ray = _camera?.ScreenPointToRay(position) ?? Camera.main.ScreenPointToRay(position);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, _hittable)) {
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, _hittable)) {
             Collide(hit.collider.gameObject);
         }
     }

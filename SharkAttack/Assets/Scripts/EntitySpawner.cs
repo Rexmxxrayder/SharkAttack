@@ -5,6 +5,7 @@ using ToolsBoxEngine;
 
 public class EntitySpawner : MonoBehaviour {
     [SerializeField] GameObject _toSpawn = null;
+    [SerializeField] float _spawnAngle = 60f;
     [SerializeField] float _time;
     [SerializeField] float _radiusSpawn;
     [SerializeField] Transform _target;
@@ -42,8 +43,12 @@ public class EntitySpawner : MonoBehaviour {
     }
 
     Vector3 RandomPositionOnRadius(float radius) {
-        Vector2 random = Random.insideUnitCircle.normalized;
-        return random.To3D(0f, Axis.Y) * radius;
+        //Vector2 random = Random.insideUnitCircle.normalized;
+
+        Vector3 randomDirection = Tools.RandomValue(Vector3.up, Vector3.right, Vector3.down, Vector3.left);
+        float angle = Random.Range(_spawnAngle / 2f, -_spawnAngle / 2f);
+        Vector3 targetDir = Quaternion.AngleAxis(angle, Vector3.forward) * randomDirection;
+        return targetDir.Override(targetDir.y, Axis.Z).Override(0, Axis.Y) * radius;
     }
 
     void OnDrawGizmosSelected() {

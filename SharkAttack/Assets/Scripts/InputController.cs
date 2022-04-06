@@ -13,6 +13,7 @@ public class InputController : MonoBehaviour {
     public System.Action<Vector2> OnDrag;
 
     void Update() {
+        // Mouse
         if (Input.GetMouseButtonDown(0)) {
             _timer = 0f;
             _dragPosition = Input.mousePosition;
@@ -23,6 +24,22 @@ public class InputController : MonoBehaviour {
                 OnClick?.Invoke(Input.mousePosition);
             } else {
                 OnDrag?.Invoke(Input.mousePosition.To2D() - _dragPosition);
+            }
+        }
+
+        // Touch
+        if (Input.touchCount > 0) {
+            if (Input.GetTouch(0).phase == TouchPhase.Began) {
+                _timer = 0f;
+                _dragPosition = Input.mousePosition;
+            } else if (Input.GetTouch(0).phase == TouchPhase.Ended) {
+                if (_timer <= _clickTime) {
+                    OnClick?.Invoke(Input.mousePosition);
+                } else {
+                    OnDrag?.Invoke(Input.mousePosition.To2D() - _dragPosition);
+                }
+            } else {
+                _timer += Time.deltaTime;
             }
         }
     }

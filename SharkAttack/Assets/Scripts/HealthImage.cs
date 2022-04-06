@@ -7,6 +7,7 @@ public class HealthImage : MonoBehaviour {
     [SerializeField] List<Sprite> sprites = new List<Sprite>();
     [SerializeField] Image image;
     [SerializeField] int healthLevel;
+
     private void Start() {
         image = GetComponent<Image>();
         UpdateSprite();
