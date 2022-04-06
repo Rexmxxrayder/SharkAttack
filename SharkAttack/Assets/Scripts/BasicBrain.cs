@@ -25,12 +25,12 @@ public class BasicBrain : MonoBehaviour {
 
     void StopMoving(IHealth target) {
         _movement.Moving = false;
+        _attackingTarget = target;
+        target.OnDeath += OnDestroyRaft;
     }
 
     void Attack(IHealth target) {
         _attack.Attack(target);
-        target.OnDeath += OnDestroyRaft;
-        _attackingTarget = target;
     }
 
     void Death(IHealth target) {

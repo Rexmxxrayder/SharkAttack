@@ -13,6 +13,9 @@ public class ChooseCamera : MonoBehaviour {
     [SerializeField] bool Left;
     [SerializeField] float radius;
     [SerializeField] float high;
+
+    public int CurrentCamera => currentCam;
+
     private void Start() {
         for (int i = 0; i < cams.Count; i++) {
             cams[i].transform.position += Quaternion.Euler(0, i * 360 / cams.Count, 0) * Vector3.forward * radius + Vector3.up * high;

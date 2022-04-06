@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using ToolsBoxEngine;
 
 public class HealthModule : MonoBehaviour, IHealth {
     [SerializeField] int maxHealth = 10;
     [SerializeField] int currentHealth;
 
-    UnityEvent<IHealth, int> _onHit;
-    UnityEvent<IHealth> _onDeath;
+    [SerializeField] UnityEvent<IHealth, int> _onHit;
+    [SerializeField] UnityEvent<IHealth> _onDeath;
 
     public event UnityAction<IHealth, int> OnHit { add => _onHit.AddListener(value); remove => _onHit.RemoveListener(value); }
     public event UnityAction<IHealth> OnDeath { add { _onDeath.AddListener(value); } remove => _onDeath.RemoveListener(value); }
-
 
     public int Health => currentHealth;
 

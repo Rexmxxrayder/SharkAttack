@@ -527,6 +527,11 @@ namespace ToolsBoxEngine {
             }
         }
 
+        public static T RandomValue<T>(params T[] values) {
+            int index = UnityEngine.Random.Range(0, values.Length);
+            return values[index];
+        }
+
         #endregion
 
         #region Print

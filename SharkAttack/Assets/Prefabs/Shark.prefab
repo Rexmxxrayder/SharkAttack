@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 448247736b63e57478ca81487c30063a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _attackCooldown: 5
+  _attackCooldown: 2
   _damage: 1
 --- !u!33 &8534721871182536684
 MeshFilter:
@@ -199,6 +199,7 @@ GameObject:
   - component: {fileID: 8534721871546215452}
   - component: {fileID: 3973959165946346343}
   - component: {fileID: 8534721871546215455}
+  - component: {fileID: 4813493935476928061}
   m_Layer: 6
   m_Name: Shark
   m_TagString: Untagged
@@ -249,5 +250,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eff76b782ed60c847a7b28ed8d9bd683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 2
+  maxHealth: 1
   currentHealth: 0
+  _onHit:
+    m_PersistentCalls:
+      m_Calls: []
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &4813493935476928061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8534721871546215450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b510cf40b7206a43841fe245419b7dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: {fileID: 8534721871546215455}
+  _parent: {fileID: 0}
