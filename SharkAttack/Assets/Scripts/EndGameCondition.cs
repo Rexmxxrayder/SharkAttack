@@ -25,9 +25,11 @@ public class EndGameCondition : MonoBehaviour {
 
     void Win() {
         Debug.LogWarning("WOOOON");
+        Time.timeScale = 0f;
     }
 
     void Lose() {
         Debug.LogWarning("LOOOOSE");
+        Time.timeScale = 0f;
     }
 }
