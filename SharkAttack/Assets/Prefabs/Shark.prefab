@@ -185,6 +185,8 @@ GameObject:
   - component: {fileID: 8534721871546215452}
   - component: {fileID: 3973959165946346343}
   - component: {fileID: 8534721871546215455}
+  - component: {fileID: 4203507977669882794}
+  - component: {fileID: 6217638232810725970}
   m_Layer: 6
   m_Name: Shark
   m_TagString: Untagged
@@ -224,6 +226,10 @@ MonoBehaviour:
   _attack: {fileID: 690659876230420909}
   _movement: {fileID: 273575989813776114}
   _health: {fileID: 8534721871546215455}
+  _side: 0
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &8534721871546215455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,7 +249,46 @@ MonoBehaviour:
       m_Calls: []
   _onDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6217638232810725970}
+        m_TargetAssemblyTypeName: InstantiateSomething, Assembly-CSharp
+        m_MethodName: Create
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!65 &4203507977669882794
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8534721871546215450}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1589351, y: 1.0775785, z: 2.6631181}
+  m_Center: {x: 0, y: 0.48950627, z: 0}
+--- !u!114 &6217638232810725970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8534721871546215450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9a58c8d3e0c534f8a77deb91b787a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _obj: {fileID: 3910953539231483583, guid: 98494537d37be3f4eb5d5c43d9db88d1, type: 3}
+  _instantiateOnStart: 0
 --- !u!1001 &2335297054227434693
 PrefabInstance:
   m_ObjectHideFlags: 0

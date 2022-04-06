@@ -1,14 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using ToolsBoxEngine;
 
 public class BasicBrain : MonoBehaviour {
     [SerializeField] EntityAttack _attack;
     [SerializeField] LinearMovement _movement;
     [SerializeField] HealthModule _health;
+    [SerializeField] int _side;
+    [SerializeField] UnityEvent<BasicBrain> _onDeath;
 
     IHealth _attackingTarget = null;
+
+    public int Side { get => _side; set => SetSide(value); }
+    public HealthModule Health => _health;
+
+    public event UnityAction<BasicBrain> OnDeath { add => _onDeath.AddListener(value); remove => _onDeath.RemoveListener(value); }
 
     void Awake() {
         _attack.OnCollision += StopMoving;
@@ -34,11 +42,16 @@ public class BasicBrain : MonoBehaviour {
     }
 
     void Death(IHealth target) {
+        _onDeath?.Invoke(this);
         Destroy(gameObject);
     }
 
     public void SetDirection(Vector3 direction) {
         _movement.ChangeDirection(direction);
+    }
+
+    public void SetSide(int side) {
+        _side = side;
     }
 
     public void OnDestroyRaft(IHealth target) {

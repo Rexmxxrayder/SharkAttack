@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Timer : MonoBehaviour {
     [SerializeField] float _time;
     [SerializeField] bool _launchOnStart = true;
+    [SerializeField] UnityEvent _onTimerEnd;
 
-    public event System.Action OnTimerEnd;
+    public event UnityAction OnTimerEnd;
 
     bool ended = false;
     float _timer;
@@ -21,7 +23,7 @@ public class Timer : MonoBehaviour {
             yield return new WaitForSeconds(1f);
             ++_timer;
         }
-        OnTimerEnd?.Invoke();
+        _onTimerEnd?.Invoke();
     }
 
     void Update() {

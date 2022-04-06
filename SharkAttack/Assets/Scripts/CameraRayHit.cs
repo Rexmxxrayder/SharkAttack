@@ -6,6 +6,7 @@ public class CameraRayHit : MonoBehaviour {
     [SerializeField] InputController _input;
 
     [SerializeField] Camera _camera;
+    [SerializeField] ChooseCamera _cameraBrain;
     [SerializeField] LayerMask _hittable;
 
     private void Reset() {
@@ -34,6 +35,8 @@ public class CameraRayHit : MonoBehaviour {
     }
 
     public void Collide(GameObject obj) {
-        obj.GetComponent<IHealth>()?.LoseLife(1);
+        if ((obj.GetComponent<BasicBrain>()?.Side ?? -1) == _cameraBrain.CurrentCamera) {
+            obj.GetComponent<IHealth>()?.LoseLife(1);
+        }
     }
 }
