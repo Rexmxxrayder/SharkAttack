@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LoadLevelData : MonoBehaviour {
-    [SerializeField] LevelData _data;
+    [SerializeField] public LevelData Data;
     [SerializeField] Timer _timer;
     [SerializeField] EntitySpawner _sharkSpawner;
     [SerializeField] bool _loadDataOnStart;
 
     void Start() {
-        if (_loadDataOnStart) { LoadData(_data); }
+        if (_loadDataOnStart) { LoadData(Data); }
     }
 
     public void LoadData(LevelData data) {

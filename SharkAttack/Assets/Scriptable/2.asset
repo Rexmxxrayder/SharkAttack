@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: 2
   m_EditorClassIdentifier: 
   isle: {fileID: 0}
-  scoreOneStar: 0
-  scoreTwoStar: 0
-  scoreThreeStar: 0
-  sharkNumber: 0
-  duration: 0
-  sharkAttackTime: 0
-  killerWhaleHealthPoint: 0
-  score: 0
+  scoreOneStar: 100
+  scoreTwoStar: 200
+  scoreThreeStar: 300
+  sharkNumber: 10000
+  duration: 10
+  sharkAttackTime: 10
+  killerWhaleHealthPoint: 50

@@ -6,6 +6,10 @@ using ToolsBoxEngine;
 public class EndGameCondition : MonoBehaviour {
     [SerializeField] Timer _time;
     [SerializeField] ParentShatterRaft _shatterRaft;
+    [SerializeField] ScoreController scoreController;
+    [SerializeField] LoadLevelData loadLevelData;
+    [SerializeField] Parchemin parchemin;
+    [SerializeField] GameObject PauseButton;
 
     private void Reset() {
         _time = GetComponent<Timer>();
@@ -23,12 +27,18 @@ public class EndGameCondition : MonoBehaviour {
     }
 
     void Win() {
-        Debug.LogWarning("WOOOON");
+        loadLevelData.Data.isle.ImportScore(scoreController.Score);
+        parchemin.transform.parent.gameObject.SetActive(true);
+        parchemin.LaunchAnim(scoreController.Score, loadLevelData.Data);
+        PauseButton.SetActive(false);
         Time.timeScale = 0f;
     }
 
     void Lose() {
-        Debug.LogWarning("LOOOOSE");
+        loadLevelData.Data.isle.ImportScore(scoreController.Score);
+        parchemin.transform.parent.gameObject.SetActive(true);
+        parchemin.LaunchAnim(scoreController.Score, loadLevelData.Data);
+        PauseButton.SetActive(false);
         Time.timeScale = 0f;
     }
 }
