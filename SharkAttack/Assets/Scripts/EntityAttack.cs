@@ -12,6 +12,8 @@ public class EntityAttack : MonoBehaviour {
     public System.Action<IHealth> OnCollision;
     public System.Action<IHealth> OnAttack;
 
+    public float Cooldown { get => _attackCooldown; set => _attackCooldown = value; }
+
     void OnCollisionEnter(Collision collision) {
         IHealth health = collision.gameObject.GetComponent<IHealth>();
         if (health != null) {

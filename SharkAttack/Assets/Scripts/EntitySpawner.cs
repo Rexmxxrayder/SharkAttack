@@ -15,6 +15,8 @@ public class EntitySpawner : MonoBehaviour {
 
     Vector3[] _directions = { Vector3.up, Vector3.right, Vector3.down, Vector3.left };
     public int[] SharkBySide => _sharkBySide;
+    public float SpawnTime { get => _time; set { _time = value; SpawnLoop(_time); } }
+    public GameObject SpawnObject => _toSpawn;
 
     void Start() {
         SpawnLoop(_time);

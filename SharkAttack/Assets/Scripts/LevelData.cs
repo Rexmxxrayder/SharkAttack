@@ -12,8 +12,8 @@ public class LevelData : ScriptableObject {
     public int scoreThreeStar;
     [Header("Level")]
     public int sharkNumber;
-    public int duration;
-    public int sharkAttackTime;
+    public float duration;
+    public float sharkAttackTime;
     public int killerWhaleHealthPoint;
 
     public void ExportScore(int score) {

@@ -17,6 +17,7 @@ public class BasicBrain : MonoBehaviour {
     public HealthModule Health => _health;
 
     public event UnityAction<BasicBrain> OnDeath { add => _onDeath.AddListener(value); remove => _onDeath.RemoveListener(value); }
+    public float AttackCooldown { get => _attack.Cooldown; set => _attack.Cooldown = value; }
 
     void Awake() {
         _attack.OnCollision += StopMoving;

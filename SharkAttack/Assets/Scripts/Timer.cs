@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour {
     [SerializeField] UnityEvent _onTimerEnd;
 
     public event UnityAction OnTimerEnd;
+    public float Time { get => _time; set => _time = value; }
 
     bool ended = false;
     float _timer;

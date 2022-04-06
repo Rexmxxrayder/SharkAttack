@@ -19,7 +19,7 @@ public class ScoreController : MonoBehaviour {
 
     }
 
-    void AddScore(int score) {
+    public void AddScore(int score) {
         _score += score;
         _onScoreEarn?.Invoke(score);
     }
