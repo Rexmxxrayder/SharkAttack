@@ -14,7 +14,7 @@ public class Buttons : MonoBehaviour {
     }
 
     public void GoToProto() {
-        SceneManager.LoadScene("ProtoScene");
+        SceneManager.LoadScene("F_ProtoScene");
     }
 
     public void Reload() {

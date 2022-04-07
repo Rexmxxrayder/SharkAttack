@@ -15,6 +15,10 @@ public class Isle : MonoBehaviour {
         isleName = gameObject.name;
         highScore = PlayerPrefs.GetInt(isleName + " highScore");
         isUnlock = PlayerPrefs.GetInt(isleName + " isUnlock") == 1 ? true : false;
+        if (AlwaysUnlock) isUnlock = true;
+        if (isUnlock && highScore > levelData.scoreOneStar) {
+            UnlockNextIsle();
+        }
         UpdateIsle();
     }
 

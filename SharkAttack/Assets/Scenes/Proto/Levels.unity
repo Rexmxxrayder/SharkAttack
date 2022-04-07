@@ -1102,9 +1102,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isles:
   - {fileID: 493737291}
-  - {fileID: 0}
-  - {fileID: 0}
-  clear: 0
+  - {fileID: 230554777}
+  - {fileID: 380360984}
+  clear: 1
 --- !u!222 &1912739731
 CanvasRenderer:
   m_ObjectHideFlags: 0
