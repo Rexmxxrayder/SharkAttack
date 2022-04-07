@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour {
     [SerializeField] bool _launchOnStart = true;
     [SerializeField] UnityEvent _onTimerEnd;
 
-    public event UnityAction OnTimerEnd;
+    public event UnityAction OnTimerEnd { add => _onTimerEnd.AddListener(value); remove => _onTimerEnd.RemoveListener(value); }
     public float Time { get => _time; set => _time = value; }
 
     bool ended = false;

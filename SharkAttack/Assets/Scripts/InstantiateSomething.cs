@@ -12,6 +12,9 @@ public class InstantiateSomething : MonoBehaviour {
 
     public void Create() {
         Instantiate(_obj, transform.position, transform.rotation);
+    }
 
+    public void Create(Vector3 position) {
+        Instantiate(_obj, position, transform.rotation);
     }
 }

@@ -13,7 +13,7 @@ public class ExplosionOnChild : MonoBehaviour {
     void Explosion() {
         for (int i = 0; i < transform.childCount; i++) {
             if (transform.GetChild(i).GetComponent<Rigidbody>() != null) {
-                transform.GetChild(i).GetComponent<Rigidbody>().AddExplosionForce(explosionForce, Random.insideUnitSphere * 1f + transform.position, explosionRadius);
+                transform.GetChild(i).GetComponent<Rigidbody>().AddExplosionForce(explosionForce, Random.insideUnitSphere * 1f + transform.position - Vector3.down * -1f, explosionRadius);
             }
         }
     }
