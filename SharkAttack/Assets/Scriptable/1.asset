@@ -17,6 +17,6 @@ MonoBehaviour:
   scoreTwoStar: 200
   scoreThreeStar: 300
   sharkNumber: 20
-  duration: 5
-  sharkAttackTime: 10
+  duration: 50
+  sharkAttackTime: 5
   killerWhaleHealthPoint: 50
