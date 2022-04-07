@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efe08a637fb78249ab660a6a3827feb, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
-  isle: {fileID: 0}
+  nextLevelData: {fileID: 11400000, guid: 8b70021e055d7944b8b501f057bf92bf, type: 2}
+  isleName: Isle Two
+  highScore: 1900
+  isUnlock: 1
+  AlwaysUnlock: 0
   scoreOneStar: 100
   scoreTwoStar: 200
   scoreThreeStar: 300

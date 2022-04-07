@@ -27,7 +27,7 @@ public class EndGameCondition : MonoBehaviour {
     }
 
     void Win() {
-        loadLevelData.Data.isle.ImportScore(scoreController.Score);
+        loadLevelData.Data.ImportScore(scoreController.Score);
         parchemin.transform.parent.gameObject.SetActive(true);
         parchemin.LaunchAnim(scoreController.Score, loadLevelData.Data);
         PauseButton.SetActive(false);
@@ -35,7 +35,7 @@ public class EndGameCondition : MonoBehaviour {
     }
 
     void Lose() {
-        loadLevelData.Data.isle.ImportScore(scoreController.Score);
+        loadLevelData.Data.ImportScore(scoreController.Score);
         parchemin.transform.parent.gameObject.SetActive(true);
         parchemin.LaunchAnim(scoreController.Score, loadLevelData.Data);
         PauseButton.SetActive(false);

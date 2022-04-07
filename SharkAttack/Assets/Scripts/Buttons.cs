@@ -14,7 +14,7 @@ public class Buttons : MonoBehaviour {
     }
 
     public void GoToProto() {
-        SceneManager.LoadScene("ProtoScene");
+        SceneManager.LoadScene("F_ProtoScene");
     }
 
     public void Reload() {
@@ -22,8 +22,8 @@ public class Buttons : MonoBehaviour {
     }
 
     public void NextLevel() {
-        if (mainLevelData.isle.nextIsle == null) GoToMenu();
-        mainLevelData.isle.nextIsle.ExportData(mainLevelData);
+        if (mainLevelData.nextLevelData == null) GoToMenu();
+        mainLevelData.nextLevelData.ExportData(mainLevelData);
         Reload();
     }
 
