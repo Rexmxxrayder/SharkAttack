@@ -177,6 +177,12 @@ MonoBehaviour:
   _cameraBrain: {fileID: 1297872974}
   _leftSignal: {fileID: 36157108}
   _rightSignal: {fileID: 522501013}
+  _onSignalActive:
+    m_PersistentCalls:
+      m_Calls: []
+  _onSignalNotActive:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &36157108
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,11 +348,11 @@ PrefabInstance:
     - target: {fileID: 1140128214, guid: 5ef91cf15a48c254ebce744a61df8b0f, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2432090755550338912, guid: 5a9db167714a93b4d9e655c99db2eceb, type: 3}
+      objectReference: {fileID: -2432090755550338912, guid: 3a48660c42a870c45bf32d963193645e, type: 3}
     - target: {fileID: 1498351782256141505, guid: 5ef91cf15a48c254ebce744a61df8b0f, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2432090755550338912, guid: 5a9db167714a93b4d9e655c99db2eceb, type: 3}
+      objectReference: {fileID: -2432090755550338912, guid: 3a48660c42a870c45bf32d963193645e, type: 3}
     - target: {fileID: 3777443042917379283, guid: 5ef91cf15a48c254ebce744a61df8b0f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1837,6 +1843,9 @@ MonoBehaviour:
   levelFinished: {fileID: 378194698}
   retryButton: {fileID: 895287710}
   nextLevel: {fileID: 252250780}
+  scoresBar: {fileID: 0}
+  lifeBar: {fileID: 0}
+  loose: 0
 --- !u!114 &634926770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2336,6 +2345,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _score: 0
+  _multiplicateur: 1
+  _multiplicateurGain: 0.05
   _onScoreEarn:
     m_PersistentCalls:
       m_Calls: []
@@ -2778,6 +2789,9 @@ MonoBehaviour:
   _hittable:
     serializedVersion: 2
     m_Bits: 64
+  _onMiss:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1079244591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2953,7 +2967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childs:
-  - health: {fileID: 149732007}
+  - health: {fileID: 688878046}
     tier: 0
   - health: {fileID: 678102001}
     tier: 0
@@ -2969,7 +2983,7 @@ MonoBehaviour:
     tier: 1
   - health: {fileID: 848617820}
     tier: 1
-  - health: {fileID: 688878046}
+  - health: {fileID: 149732007}
     tier: 2
   - health: {fileID: 152709798}
     tier: 2
@@ -3711,7 +3725,7 @@ MonoBehaviour:
   isMoving: 0
   Right: 0
   Left: 0
-  radius: 12
+  radius: 15
   high: 20
 --- !u!114 &1297872975
 MonoBehaviour:
@@ -3888,7 +3902,7 @@ Transform:
   m_GameObject: {fileID: 1347526704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 1, z: 3}
+  m_LocalScale: {x: 4, y: 1, z: 4}
   m_Children:
   - {fileID: 286212821}
   - {fileID: 254677588}
