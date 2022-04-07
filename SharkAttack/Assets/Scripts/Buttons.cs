@@ -22,8 +22,8 @@ public class Buttons : MonoBehaviour {
     }
 
     public void NextLevel() {
-        if (mainLevelData.isle.nextIsle == null) GoToMenu();
-        mainLevelData.isle.nextIsle.ExportData(mainLevelData);
+        if (mainLevelData.nextLevelData == null) GoToMenu();
+        mainLevelData.nextLevelData.ExportData(mainLevelData);
         Reload();
     }
 

@@ -239,6 +239,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isle Two
       objectReference: {fileID: 0}
+    - target: {fileID: 4442103661311419996, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 952d31502a1dbcb4f84773e567c06086, type: 2}
+    - target: {fileID: 4442103661311419996, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ExportData
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442103661311419996, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelData, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4442103661311419997, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -387,6 +399,18 @@ PrefabInstance:
     - target: {fileID: 4442103661311419986, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
       propertyPath: m_Name
       value: Isle Three
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442103661311419996, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 8b70021e055d7944b8b501f057bf92bf, type: 2}
+    - target: {fileID: 4442103661311419996, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ExportData
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442103661311419996, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelData, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4442103661311419997, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
       propertyPath: m_Pivot.x
@@ -1104,7 +1128,7 @@ MonoBehaviour:
   - {fileID: 493737291}
   - {fileID: 230554777}
   - {fileID: 380360984}
-  clear: 1
+  clear: 0
 --- !u!222 &1912739731
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1142,6 +1166,18 @@ PrefabInstance:
     - target: {fileID: 4442103661311419986, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
       propertyPath: m_Name
       value: Isle One
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442103661311419996, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 18403bbeac764fa4fb803ab099f4e3d8, type: 2}
+    - target: {fileID: 4442103661311419996, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ExportData
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442103661311419996, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelData, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4442103661311419997, guid: c3e7f889f6747f142b2fd3aeb71adb27, type: 3}
       propertyPath: m_Pivot.x
