@@ -21,6 +21,12 @@ public class Buttons : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    public void NextLevel() {
+        if (mainLevelData.isle.nextIsle == null) GoToMenu();
+        mainLevelData.isle.nextIsle.ExportData(mainLevelData);
+        Reload();
+    }
+
     public void StopTime() {
         Time.timeScale = 0;
     }

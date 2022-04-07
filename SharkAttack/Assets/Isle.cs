@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Isle : MonoBehaviour {
     public LevelData levelData;
@@ -8,15 +9,21 @@ public class Isle : MonoBehaviour {
     public string isleName;
     public int highScore;
     public bool isUnlock;
+    public bool AlwaysUnlock;
 
-    private void Start() {
+    public void Start() {
         isleName = gameObject.name;
         highScore = PlayerPrefs.GetInt(isleName + " highScore");
         isUnlock = PlayerPrefs.GetInt(isleName + " isUnlock") == 1 ? true : false;
-        UpdateVisual();
+        UpdateIsle();
     }
 
-    void UpdateVisual() {
+    public void UpdateIsle() {
+        if (AlwaysUnlock) isUnlock = true;
+        if (isUnlock && highScore > levelData.scoreOneStar) {
+            UnlockNextIsle();
+        }
+        GetComponent<Button>().enabled = isUnlock;
         transform.GetChild(1).GetChild(0).gameObject.SetActive(false);
         transform.GetChild(1).GetChild(1).gameObject.SetActive(false);
         transform.GetChild(1).GetChild(2).gameObject.SetActive(false);
@@ -41,11 +48,12 @@ public class Isle : MonoBehaviour {
     public void ImportScore(int newScore) {
         if (newScore > highScore) {
             highScore = newScore;
-            if (highScore > levelData.scoreOneStar) {
-                UnlockNextIsle();
-            }
             SaveData();
         }
+        if (highScore > levelData.scoreOneStar || newScore > levelData.scoreOneStar) {
+            UnlockNextIsle();
+        }
+
     }
 
     public void ExportData(LevelData toExport) {
@@ -63,7 +71,9 @@ public class Isle : MonoBehaviour {
     public void UnlockNextIsle() {
         if (nextIsle == null) return;
         nextIsle.isUnlock = true;
-        nextIsle?.SaveData();
+        nextIsle.SaveData();
+        nextIsle.UpdateIsle();
+        nextIsle.Start();
     }
 
     public void SaveData() {
