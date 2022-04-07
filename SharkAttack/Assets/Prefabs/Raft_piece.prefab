@@ -55,9 +55,17 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ba94050ccd1eafc49b50635b29c16fbe, type: 2}
+    - target: {fileID: -6400281290468069383, guid: 3a48660c42a870c45bf32d963193645e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -2432090755550338912, guid: 5a9db167714a93b4d9e655c99db2eceb, type: 3}
     - target: {fileID: 919132149155446097, guid: 3a48660c42a870c45bf32d963193645e, type: 3}
       propertyPath: m_Name
-      value: Raft_piece
+      value: Raft_piece (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3a48660c42a870c45bf32d963193645e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 3a48660c42a870c45bf32d963193645e, type: 3}
       propertyPath: m_Layer
@@ -88,7 +96,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: -2432090755550338912, guid: 3a48660c42a870c45bf32d963193645e, type: 3}
+  m_Mesh: {fileID: -2432090755550338912, guid: 5a9db167714a93b4d9e655c99db2eceb, type: 3}
 --- !u!114 &1140128218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,7 +116,43 @@ MonoBehaviour:
       m_Calls: []
   _onDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: MoreMountains.Feedbacks.MMFeedbacks, MoreMountains.Feedbacks
+        m_MethodName: PlayFeedbacks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Cinemachine.CinemachineImpulseSource, Cinemachine
+        m_MethodName: GenerateImpulse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7932254718467857635}
+        m_TargetAssemblyTypeName: InstantiateSomething, Assembly-CSharp
+        m_MethodName: Create
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1140128219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,3 +167,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _health: {fileID: 1140128218}
   _parent: {fileID: 4550883865462060649}
+--- !u!114 &7932254718467857635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4803712579749760688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9a58c8d3e0c534f8a77deb91b787a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _obj: {fileID: 5753732316919224698, guid: 31d2446613b2a3947a63df944265f5c9, type: 3}
+  _instantiateOnStart: 0

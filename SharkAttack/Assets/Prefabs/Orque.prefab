@@ -175,7 +175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8116120875066363391}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.15, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 6036627171040588667}
@@ -285,9 +285,10 @@ GameObject:
   - component: {fileID: 8534721871546215455}
   - component: {fileID: 4203507977669882794}
   - component: {fileID: 6217638232810725970}
-  - component: {fileID: 855306415043627618}
+  - component: {fileID: 4051605335931610986}
+  - component: {fileID: 4993464908020067471}
   m_Layer: 6
-  m_Name: Shark
+  m_Name: Orque
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -302,7 +303,7 @@ Transform:
   m_GameObject: {fileID: 8534721871546215450}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 5630654301785032654}
   - {fileID: 8534721871182536683}
@@ -323,7 +324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 357ef770adee01a4fa84b0dad1ee4455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _animator: {fileID: 855306415043627618}
+  _animator: {fileID: 4993464908020067471}
   _attack: {fileID: 690659876230420909}
   _movement: {fileID: 273575989813776114}
   _health: {fileID: 8534721871546215455}
@@ -349,11 +350,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eff76b782ed60c847a7b28ed8d9bd683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
+  maxHealth: 20
   currentHealth: 0
   _onHit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4051605335931610986}
+        m_TargetAssemblyTypeName: InstantiateSomething, Assembly-CSharp
+        m_MethodName: Create
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _onDeath:
     m_PersistentCalls:
       m_Calls:
@@ -418,9 +431,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a9a58c8d3e0c534f8a77deb91b787a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _obj: {fileID: 3910953539231483583, guid: 98494537d37be3f4eb5d5c43d9db88d1, type: 3}
+  _obj: {fileID: 3910953539231483583, guid: a2fa7920799b78545b56ea0fdb1c44a3, type: 3}
   _instantiateOnStart: 0
---- !u!95 &855306415043627618
+--- !u!114 &4051605335931610986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8534721871546215450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9a58c8d3e0c534f8a77deb91b787a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _obj: {fileID: 5511049651926384212, guid: 550665a19c513d34c8dd011500b90970, type: 3}
+  _instantiateOnStart: 0
+--- !u!95 &4993464908020067471
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -493,7 +520,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 088e04156e6b68344aee39f1080117c6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0b098a60d74508345a120a53f55f6e14, type: 2}
+      objectReference: {fileID: 2100000, guid: ac8067757caabc54592fd01544f121fd, type: 2}
     - target: {fileID: 919132149155446097, guid: 088e04156e6b68344aee39f1080117c6, type: 3}
       propertyPath: m_Name
       value: Requin_v3-3
@@ -554,7 +581,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 1ba3adb57ddfed147ae78e1e498fe67d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0b098a60d74508345a120a53f55f6e14, type: 2}
+      objectReference: {fileID: 2100000, guid: ac8067757caabc54592fd01544f121fd, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ba3adb57ddfed147ae78e1e498fe67d, type: 3}
       propertyPath: m_Name
       value: Requin_v3-1
@@ -615,7 +642,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 35c40ca07ad8bef46a33a2dee83f8a05, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0b098a60d74508345a120a53f55f6e14, type: 2}
+      objectReference: {fileID: 2100000, guid: ac8067757caabc54592fd01544f121fd, type: 2}
     - target: {fileID: 919132149155446097, guid: 35c40ca07ad8bef46a33a2dee83f8a05, type: 3}
       propertyPath: m_Name
       value: Requin_v3-6
@@ -681,7 +708,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 9e057b276b12f5947b743c57efe8b992, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0b098a60d74508345a120a53f55f6e14, type: 2}
+      objectReference: {fileID: 2100000, guid: ac8067757caabc54592fd01544f121fd, type: 2}
     - target: {fileID: 919132149155446097, guid: 9e057b276b12f5947b743c57efe8b992, type: 3}
       propertyPath: m_Name
       value: Requin_v3-0
@@ -742,7 +769,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 00cad4fe2f56ff54f8a6347a99becd7e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0b098a60d74508345a120a53f55f6e14, type: 2}
+      objectReference: {fileID: 2100000, guid: ac8067757caabc54592fd01544f121fd, type: 2}
     - target: {fileID: 919132149155446097, guid: 00cad4fe2f56ff54f8a6347a99becd7e, type: 3}
       propertyPath: m_Name
       value: Requin_v3-5
@@ -803,7 +830,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 1363fb140e80ff446bb5024e3cb680fa, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0b098a60d74508345a120a53f55f6e14, type: 2}
+      objectReference: {fileID: 2100000, guid: ac8067757caabc54592fd01544f121fd, type: 2}
     - target: {fileID: 919132149155446097, guid: 1363fb140e80ff446bb5024e3cb680fa, type: 3}
       propertyPath: m_Name
       value: Requin_v3-2
@@ -864,7 +891,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 57f90f4b1be36fc478a268e4db7d664f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0b098a60d74508345a120a53f55f6e14, type: 2}
+      objectReference: {fileID: 2100000, guid: ac8067757caabc54592fd01544f121fd, type: 2}
     - target: {fileID: 919132149155446097, guid: 57f90f4b1be36fc478a268e4db7d664f, type: 3}
       propertyPath: m_Name
       value: Requin_v3-4

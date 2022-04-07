@@ -6,11 +6,14 @@ using ToolsBoxEngine;
 using MoreMountains.Feedbacks;
 
 public class BasicBrain : MonoBehaviour {
+    [SerializeField] Animator _animator;
     [SerializeField] EntityAttack _attack;
     [SerializeField] LinearMovement _movement;
     [SerializeField] HealthModule _health;
     [SerializeField] int _side;
     [SerializeField] UnityEvent<BasicBrain> _onDeath;
+    [SerializeField] UnityEvent _onAttack;
+    [SerializeField] UnityEvent _onMove;
 
     IHealth _attackingTarget = null;
 
@@ -37,6 +40,7 @@ public class BasicBrain : MonoBehaviour {
         _movement.Moving = false;
         _attackingTarget = target;
         target.OnDeath += OnDestroyRaft;
+        if (_animator != null) { _animator.SetBool("Moving", false); }
     }
 
     void Attack(IHealth target) {
@@ -59,5 +63,6 @@ public class BasicBrain : MonoBehaviour {
     public void OnDestroyRaft(IHealth target) {
         _movement.Moving = true;
         _attackingTarget = null;
+        if (_animator != null) { _animator.SetBool("Moving", true); }
     }
 }
