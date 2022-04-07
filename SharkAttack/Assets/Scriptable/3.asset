@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efe08a637fb78249ab660a6a3827feb, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: 
-  isle: {fileID: 0}
+  nextLevelData: {fileID: 0}
+  isleName: Isle Three
+  highScore: 0
+  isUnlock: 0
+  AlwaysUnlock: 0
   scoreOneStar: 100
   scoreTwoStar: 200
   scoreThreeStar: 300
-  sharkNumber: 30
+  sharkNumber: 40
   duration: 40
   sharkAttackTime: 5
   killerWhaleHealthPoint: 5

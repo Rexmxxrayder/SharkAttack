@@ -40,6 +40,7 @@ public class EndGameCondition : MonoBehaviour {
     }
 
     void Lose() {
+        parchemin.loose = true;
         loadLevelData.Data.ImportScore(scoreController.Score);
         parchemin.transform.parent.gameObject.SetActive(true);
         parchemin.LaunchAnim(scoreController.Score, loadLevelData.Data);

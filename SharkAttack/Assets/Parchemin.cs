@@ -14,8 +14,13 @@ public class Parchemin : MonoBehaviour {
     [SerializeField] GameObject levelFinished = null;
     [SerializeField] GameObject retryButton = null;
     [SerializeField] GameObject nextLevel = null;
+    [SerializeField] GameObject scoresBar = null;
+    [SerializeField] GameObject lifeBar = null;
+    [SerializeField] public bool loose = false;
 
     public void LaunchAnim(int score, LevelData data) {
+        scoresBar?.SetActive(false);
+        lifeBar?.SetActive(false);
         lights.SetActive(false);
         leftStar.SetActive(false);
         middleStar.SetActive(false);
@@ -25,7 +30,7 @@ public class Parchemin : MonoBehaviour {
         retryButton.SetActive(false);
         nextLevel.SetActive(false);
         this.score.text = score.ToString();
-        if(data.scoreOneStar > score) {
+        if(loose || data.scoreOneStar > score) {
             fail.SetActive(true);
             retryButton.SetActive(true);
             return;
