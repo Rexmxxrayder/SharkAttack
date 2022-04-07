@@ -10,6 +10,7 @@ public class Timer : MonoBehaviour {
 
     public event UnityAction OnTimerEnd { add => _onTimerEnd.AddListener(value); remove => _onTimerEnd.RemoveListener(value); }
     public float Time { get => _time; set => _time = value; }
+    public float CurrentTime { get => _timer; }
 
     bool ended = false;
     float _timer;

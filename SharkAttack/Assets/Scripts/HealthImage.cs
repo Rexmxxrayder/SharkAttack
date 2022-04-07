@@ -8,10 +8,13 @@ public class HealthImage : MonoBehaviour {
     [SerializeField] Image image;
     [SerializeField] int healthLevel;
 
+    public int HealthLevel => healthLevel;
+
     private void Start() {
         image = GetComponent<Image>();
         UpdateSprite();
     }
+
     public void HealthUpdate(int amount) {
         if(healthLevel > amount) {
             healthLevel = amount;
