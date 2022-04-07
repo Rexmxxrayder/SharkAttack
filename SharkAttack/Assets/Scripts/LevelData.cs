@@ -28,8 +28,8 @@ public class LevelData : ScriptableObject {
     public void ImportScore(int newScore) {
         if (newScore > highScore) {
             highScore = newScore;
-            SaveData();
         }
+        SaveData();
     }
 
     public void SaveData() {

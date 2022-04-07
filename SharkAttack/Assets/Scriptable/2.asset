@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextLevelData: {fileID: 11400000, guid: 8b70021e055d7944b8b501f057bf92bf, type: 2}
   isleName: Isle Two
-  highScore: 1900
-  isUnlock: 1
+  highScore: 0
+  isUnlock: 0
   AlwaysUnlock: 0
   scoreOneStar: 100
   scoreTwoStar: 200
   scoreThreeStar: 300
-  sharkNumber: 25
+  sharkNumber: 30
   duration: 40
   sharkAttackTime: 5
   killerWhaleHealthPoint: 50
