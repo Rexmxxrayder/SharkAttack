@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using ToolsBoxEngine;
 
 public class EndGameCondition : MonoBehaviour {
@@ -16,7 +17,7 @@ public class EndGameCondition : MonoBehaviour {
     }
 
     void Start() {
-        if (_time != null) { _time.OnTimerEnd += Win; }
+        //if (_time != null) { _time.OnTimerEnd += Win; }
         if (_shatterRaft != null) { _shatterRaft.OnLostChild += ComputeLose; }
     }
 
@@ -34,6 +35,10 @@ public class EndGameCondition : MonoBehaviour {
         Time.timeScale = 0f;
     }
 
+    void Win(IHealth health) {
+        Win();
+    }
+
     void Lose() {
         parchemin.loose = true;
         loadLevelData.Data.ImportScore(scoreController.Score);
@@ -41,5 +46,9 @@ public class EndGameCondition : MonoBehaviour {
         parchemin.LaunchAnim(scoreController.Score, loadLevelData.Data);
         PauseButton.SetActive(false);
         Time.timeScale = 0f;
+    }
+
+    public void BindWinOnDeath(GameObject obj) {
+        obj.GetComponent<IHealth>().OnDeath += Win;
     }
 }

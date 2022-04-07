@@ -38,7 +38,7 @@ public class EntitySpawner : MonoBehaviour {
         }
     }
 
-    public void Spawn(GameObject toSpawn) {
+    public GameObject Spawn(GameObject toSpawn) {
         (Vector3, int) position = RandomPositionOnRadius(_radiusSpawn);
         GameObject last = Instantiate(toSpawn, position.Item1, Quaternion.identity);
         Vector3 direction = _target != null ?
@@ -51,7 +51,10 @@ public class EntitySpawner : MonoBehaviour {
             brain.SetSide(position.Item2);
             ++_sharkBySide[position.Item2];
             brain.OnDeath += DeadShark;
+        } else if (last.GetComponent<LinearMovement>() != null) {
+            last.GetComponent<LinearMovement>().ChangeDirection(direction);
         }
+        return last;
     }
 
     (Vector3, int) RandomPositionOnRadius(float radius) {
